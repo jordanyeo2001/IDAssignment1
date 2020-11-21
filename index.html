@@ -7,15 +7,15 @@
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <style>
       body {
-        background-color: azure;
+        background-color: rgb(0, 255, 255);
       }
       .main {
-        width: 1500px;
-        background-color: aliceblue;
         padding: 50px;
         text-align: center;
         margin-top: 0px;
+        margin-right: 40px;
         font-size: 60px;
+
         font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
           "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black",
           "sans serif";
@@ -38,7 +38,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        background-color: aliceblue;
+        background-color: rgb(8, 99, 179);
         margin-top: -80px;
       }
 
@@ -46,14 +46,14 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        background-color: aliceblue;
+        background-color: rgb(0, 225, 255);
         margin-top: 0px;
       }
 
       .split {
         text-align: center;
         margin: 10px;
-        background-color: azure;
+        background-color: rgb(93, 248, 248);
         width: inherit;
         position: static;
       }
@@ -103,10 +103,64 @@
         flex-wrap: column wrap;
         margin-top: 250px;
       }
+
+      .menubutton {
+        background-color: #ff6600;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        max-width: 90px;
+      }
+
+      .dropdown-menu a {
+        color: #3333ff;
+        padding: 10px 14px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-menu {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+
+      .dropdown:hover .menubutton {
+        background-color: #3e8e41;
+      }
+      #nav2 {
+        display: block;
+      }
+      #nav {
+        display: none;
+      }
+
       @media screen and (max-width: 920px) {
-        .boxes {
-          flex: 1 100%;
-          flex-grow: inherit;
+        #nav2 {
+          display: none;
+        }
+        #nav {
+          display: block;
+          text-align: center;
+        }
+        .main {
+          font-size: 60px;
+          padding: 30px;
+          margin-top: 30px;
+          margin-right: 40px;
         }
       }
     </style>
@@ -116,12 +170,22 @@
       <ul class="title">
         <h1 class="main">Home</h1>
       </ul>
-      <nav>
+      <nav id="nav2">
         <ul id="menu">
-          <li class="menu"><a href="#">Home</a></li>
-          <li class="menu"><a href="#">About Me</a></li>
-          <li class="menu"><a href="#">Contact</a></li>
+          <li class="menu"><a href="index.html">Home</a></li>
+          <li class="menu"><a href="aboutme.html">About Me</a></li>
+          <li class="menu"><a href="contact.html">Contact</a></li>
         </ul>
+      </nav>
+      <nav id="nav">
+        <div class="dropdown">
+          <button class="menubutton">Menu</button>
+          <div class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -129,7 +193,8 @@
       <p class="boxes">
         Welcome to my page! Feel free to look around and get to know more about
         me. If you have any questions, you can always contact me using the forms
-        on the right or go to the contact page to get in touch with me.
+        at the bottom of the page or go to the contact page to get in touch with
+        me.
       </p>
 
       <p>
