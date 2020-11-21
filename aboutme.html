@@ -41,7 +41,22 @@
         background-color: aliceblue;
         margin-top: -80px;
       }
-
+      .list {
+        background-color: aliceblue;
+        padding: 20px;
+        text-align: center;
+        margin-top: -50px;
+        flex-flow: row wrap;
+        width: 100px;
+        margin: 10px;
+      }
+      #list {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: aliceblue;
+        margin-top: -80px;
+      }
       .title {
         display: flex;
         flex-flow: row wrap;
@@ -74,13 +89,6 @@
       }
 
       p {
-        background-color: rgb(255, 255, 255);
-        width: 300px;
-        border: 15px solid rgb(68, 0, 255);
-        padding: 50px;
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: -200px;
         font-family: Palatino, "Palatino Linotype", "Palatino LT STD",
           "Book Antiqua", Georgia, serif;
         font-size: 18px;
@@ -95,6 +103,7 @@
         display: flex;
         flex-direction: column;
         padding: 2%;
+        text-align: center;
       }
       .box2 {
         flex-basis: 45%;
@@ -103,22 +112,20 @@
         padding: 2%;
         text-align: center;
         float: left;
-  width: 50%;
-
+        width: 50%;
       }
 
       .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+        content: "";
+        display: table;
+        clear: both;
+      }
 
       .container {
         display: flex;
         width: 100%;
-        flex-wrap: column wrap;
+        flex-wrap: row wrap;
         margin-top: 250px;
-        
       }
       @media screen and (max-width: 920px) {
         .boxes {
@@ -141,64 +148,69 @@
         </ul>
       </nav>
     </header>
-    <div class="row">
-      <h1 class="box2">
-        Achievement
-      </h1>
-  
-      <h1 class="box2">
-        test
-      </h1>
-    <div>
-    
 
-    <section class="container">
+    <section>
+      <h1 class="boxes">Achievement</h1>
 
-      <p class="boxes">
-        Welcome to my page! Feel free to look around and get to know more about
-        me. If you have any questions, you can always contact me using the forms
-        on the right or go to the contact page to get in touch with me.
-      </p>
+      <p class="boxes"></p>
+      <ul id="list">
+        <li class="list">2019 - CDC & CCC- ITE Scholarship</li>
+        <li class="list">2018 - CDC & CCC- ITE Scholarship</li>
+        <li class="list">
+          2017 - Distinction in Singapore Youth Festival for Chinese Dance and
+          Wushu
+        </li>
+        <li class="list">2016 - Edusave Good Progress Award</li>
+        <li class="list">2014 - Edusave Scholarship</li>
+      </ul>
 
-      <p>
-        Hi, I am currently studying in Ngee Ann Polytechnic. 
-        I like to play basketball and computer games. I also have a youtube channel which
-        I have learn how to do video editing for my videos. I seek for the best in whatever I do, 
-        and I am constantly striving to improve myself. I hope to be in a IT related job in the future. 
-      </p>
+      <h1 class="boxes">Certification</h1>
+      <p class="boxes"></p>
+      <ul id="list">
+        <li class="list">2018 - Cisco Certified Entry Network Technician</li>
+        <li class="list">2017 - ‘N’ Level Graduation Certificate</li>
+      </ul>
 
-      
+      <h1 class="boxes">Skillset</h1>
+      <p class="boxes"></p>
+      <ul id="list">
+        <li class="list">Video Editing</li>
+        <li class="list">C# Programming</li>
+        <li class="list">Python Programming</li>
+        <li class="list">Microsoft Word</li>
+        <li class="list">Microsoft PowerPoint</li>
+      </ul>
+
+      ​
     </section>
 
     <aside>
-        <form class="split">
-          <label for="txtfullname" class="box">Full Name:</label>
-          <input
-            type="text"
-            name="txtfullname"
-            placeholder="Please enter your name"
-          /><br />
-          <label for="thedate" class="box">Date:</label>
-          <input
-            type="datetime"
-            name="thedate"
-            placeholder="Please enter the date"
-          /><br />
-          <label for="getemail" class="box">Email:</label>
-          <input
-            type="email"
-            name="getemail"
-            placeholder="Please enter your email"
-          /><br />
-  
-          <label for="textspace" class="box">Comments:</label>
-          <textarea id="textspace" name="textspace" rows="4" cols="20"></textarea>
-          <br />
-          <input type="submit" name="Submit" />
-        </form>
-  
-        
-      </aside>
+      <form class="split">
+        <label for="txtfullname" class="box">Full Name:</label>
+        <input
+          type="text"
+          name="txtfullname"
+          placeholder="Please enter your name"
+        /><br />
+        <label for="thedate" class="box">Date:</label>
+        <input
+          type="datetime"
+          name="thedate"
+          placeholder="Please enter the date"
+        /><br />
+        <label for="getemail" class="box">Email:</label>
+        <input
+          type="email"
+          name="getemail"
+          placeholder="Please enter your email"
+        /><br />
+
+        <label for="textspace" class="box">Comments:</label>
+        <textarea id="textspace" name="textspace" rows="4" cols="20"></textarea>
+        <br />
+        <input type="submit" name="Submit" />
+      </form>
+    </aside>
     <article id="pos"></article>
   </body>
 </html>
