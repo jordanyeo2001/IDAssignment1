@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jordan's Contact</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        background-color: azure;
+      }
+      .main {
+        width: 1500px;
+        background-color: aliceblue;
+        padding: 50px;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 60px;
+        font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
+          "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black",
+          "sans serif";
+        font-size: 80px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
+      }
+      .menu {
+        background-color: aliceblue;
+        padding: 20px;
+        text-align: center;
+        margin-top: -50px;
+        flex-flow: row wrap;
+        width: 100px;
+        margin: 10px;
+      }
+      #menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: aliceblue;
+        margin-top: -80px;
+      }
+      .list {
+        background-color: aliceblue;
+        padding: 20px;
+        text-align: center;
+        margin-top: -50px;
+        flex-flow: row wrap;
+        width: 100px;
+        margin: 10px;
+      }
+      #list {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        background-color: aliceblue;
+        margin-top: -80px;
+      }
+      .title {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: aliceblue;
+        margin-top: 0px;
+      }
+
+      .split {
+        text-align: center;
+        margin: 10px;
+        background-color: azure;
+        width: inherit;
+        position: static;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .box {
+        color: #3333ff;
+        flex-basis: 45%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+      }
+      #background {
+        background-color: #c0c0c0;
+      }
+
+      p {
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD",
+          "Book Antiqua", Georgia, serif;
+        font-size: 18px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
+      }
+
+      .boxes {
+        flex-basis: 45%;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        text-align: center;
+      }
+      .box2 {
+        flex-basis: 45%;
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        text-align: center;
+        float: left;
+        width: 50%;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: row wrap;
+        margin-top: 250px;
+      }
+      @media screen and (max-width: 920px) {
+        .boxes {
+          flex: 1 100%;
+          flex-grow: inherit;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul class="title">
+        <h1 class="main">Contact</h1>
+      </ul>
+      <nav>
+        <ul id="menu">
+          <li class="menu"><a href="#">Home</a></li>
+          <li class="menu"><a href="#">About Me</a></li>
+          <li class="menu"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <p class="boxes">Email: jordan.yeo2001@gmail.com</p>
+    </section>
+
+    <aside>
+      <form class="split">
+        <label for="txtfullname" class="box">Full Name:</label>
+        <input
+          type="text"
+          name="txtfullname"
+          placeholder="Please enter your name"
+        /><br />
+        <label for="thedate" class="box">Date:</label>
+        <input
+          type="datetime"
+          name="thedate"
+          placeholder="Please enter the date"
+        /><br />
+        <label for="getemail" class="box">Email:</label>
+        <input
+          type="email"
+          name="getemail"
+          placeholder="Please enter your email"
+        /><br />
+
+        <label for="textspace" class="box">Comments:</label>
+        <textarea id="textspace" name="textspace" rows="4" cols="20"></textarea>
+        <br />
+        <input type="submit" name="Submit" />
+      </form>
+    </aside>
+    <article id="pos"></article>
+  </body>
+</html>
