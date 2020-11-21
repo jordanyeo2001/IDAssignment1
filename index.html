@@ -74,12 +74,12 @@
       }
 
       p {
+        flex-direction: column;
         background-color: rgb(255, 255, 255);
         width: 300px;
-        border: 15px solid rgb(68, 0, 255);
+        border: 5px solid rgb(68, 0, 255);
         padding: 50px;
         margin-left: 40px;
-        margin-right: 40px;
         margin-top: -200px;
         font-family: Palatino, "Palatino Linotype", "Palatino LT STD",
           "Book Antiqua", Georgia, serif;
@@ -92,15 +92,16 @@
 
       .boxes {
         flex-basis: 45%;
-        display: flex;
-        flex-direction: column;
+        padding: 2%;
+        margin-right: 30px;
+        margin-left: 150px;
+      }
+      .boxes2 {
         padding: 2%;
       }
-
       .container {
         display: flex;
         width: 100%;
-        flex-wrap: column wrap;
         margin-top: 250px;
       }
 
@@ -162,6 +163,17 @@
           margin-top: 30px;
           margin-right: 40px;
         }
+        .container {
+          flex-direction: column;
+        }
+        .boxes {
+          margin-bottom: 250px;
+          margin-left: 15px;
+        }
+        .boxes2 {
+          margin-left: 15px;
+        }
+      }
       }
     </style>
   </head>
@@ -196,8 +208,7 @@
         at the bottom of the page or go to the contact page to get in touch with
         me.
       </p>
-
-      <p>
+      <p class="boxes2">
         Hi, I am currently studying in Ngee Ann Polytechnic. I like to play
         basketball and computer games. I also have a youtube channel which I
         have learn how to do video editing for my videos. I seek for the best in
