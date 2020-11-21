@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jordan's Home</title>
+    <title>Jordan's About Me</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <style>
       body {
@@ -68,7 +68,7 @@
         display: flex;
         flex-direction: column;
         padding: 1%;
-      } 
+      }
       #background {
         background-color: #c0c0c0;
       }
@@ -96,8 +96,23 @@
         flex-direction: column;
         padding: 2%;
       }
+      .box2 {
+        flex-basis: 45%;
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        text-align: center;
+        float: left;
+  width: 50%;
 
- 
+      }
+
+      .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
       .container {
         display: flex;
         width: 100%;
@@ -116,7 +131,7 @@
   <body>
     <header>
       <ul class="title">
-        <h1 class="main">Home</h1>
+        <h1 class="main">About Me</h1>
       </ul>
       <nav>
         <ul id="menu">
@@ -126,8 +141,19 @@
         </ul>
       </nav>
     </header>
+    <div class="row">
+      <h1 class="box2">
+        Achievement
+      </h1>
+  
+      <h1 class="box2">
+        test
+      </h1>
+    <div>
     
+
     <section class="container">
+
       <p class="boxes">
         Welcome to my page! Feel free to look around and get to know more about
         me. If you have any questions, you can always contact me using the forms
@@ -140,6 +166,7 @@
         I have learn how to do video editing for my videos. I seek for the best in whatever I do, 
         and I am constantly striving to improve myself. I hope to be in a IT related job in the future. 
       </p>
+
       
     </section>
 
