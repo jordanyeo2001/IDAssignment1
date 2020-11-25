@@ -627,6 +627,7 @@ p {
     margin-left: 23px;
   }
 }
+
 @media only screen and (max-width: 300px) {
   .screensize {
     width: 75.33%;
