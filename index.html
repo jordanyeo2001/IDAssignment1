@@ -5,177 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jordan's Home</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <style>
-      body {
-        background-color: rgb(0, 255, 255);
-      }
-      .main {
-        padding: 50px;
-        text-align: center;
-        margin-top: 0px;
-        margin-right: 40px;
-        font-size: 60px;
-
-        font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
-          "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black",
-          "sans serif";
-        font-size: 80px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 700;
-        line-height: 26.4px;
-      }
-      .menu {
-        background-color: aliceblue;
-        padding: 20px;
-        text-align: center;
-        margin-top: -50px;
-        flex-flow: row wrap;
-        width: 100px;
-        margin: 10px;
-      }
-      #menu {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        background-color: rgb(8, 99, 179);
-        margin-top: -80px;
-      }
-
-      .title {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        background-color: rgb(0, 225, 255);
-        margin-top: 0px;
-      }
-
-      .split {
-        text-align: center;
-        margin: 10px;
-        background-color: rgb(93, 248, 248);
-        width: inherit;
-        position: static;
-      }
-
-      ul {
-        list-style: none;
-      }
-
-      .box {
-        color: #3333ff;
-        flex-basis: 45%;
-        display: flex;
-        flex-direction: column;
-        padding: 1%;
-      }
-      #background {
-        background-color: #c0c0c0;
-      }
-
-      p {
-        flex-direction: column;
-        background-color: rgb(255, 255, 255);
-        width: 300px;
-        border: 5px solid rgb(68, 0, 255);
-        padding: 50px;
-        margin-left: 40px;
-        margin-top: -200px;
-        font-family: Palatino, "Palatino Linotype", "Palatino LT STD",
-          "Book Antiqua", Georgia, serif;
-        font-size: 18px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 700;
-        line-height: 26.4px;
-      }
-
-      .boxes {
-        flex-basis: 45%;
-        padding: 2%;
-        margin-right: 30px;
-        margin-left: 150px;
-      }
-      .boxes2 {
-        padding: 2%;
-      }
-      .container {
-        display: flex;
-        width: 100%;
-        margin-top: 250px;
-      }
-
-      .menubutton {
-        background-color: #ff6600;
-        color: white;
-        padding: 20px;
-        font-size: 20px;
-      }
-
-      .dropdown {
-        position: relative;
-        display: inline-block;
-      }
-
-      .dropdown-menu {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        max-width: 90px;
-      }
-
-      .dropdown-menu a {
-        color: #3333ff;
-        padding: 10px 14px;
-        text-decoration: none;
-        display: block;
-      }
-
-      .dropdown-menu {
-        background-color: #ddd;
-      }
-
-      .dropdown:hover .dropdown-menu {
-        display: block;
-      }
-
-      .dropdown:hover .menubutton {
-        background-color: #3e8e41;
-      }
-      #nav2 {
-        display: block;
-      }
-      #nav {
-        display: none;
-      }
-
-      @media screen and (max-width: 920px) {
-        #nav2 {
-          display: none;
-        }
-        #nav {
-          display: block;
-          text-align: center;
-        }
-        .main {
-          font-size: 60px;
-          padding: 30px;
-          margin-top: 30px;
-          margin-right: 40px;
-        }
-        .container {
-          flex-direction: column;
-        }
-        .boxes {
-          margin-bottom: 250px;
-          margin-left: 15px;
-        }
-        .boxes2 {
-          margin-left: 15px;
-        }
-      }
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -201,14 +30,14 @@
       </nav>
     </header>
 
-    <section class="container">
-      <p class="boxes">
+    <section class="indexcontainer">
+      <p class="indexboxes indexpara screensize">
         Welcome to my page! Feel free to look around and get to know more about
         me. If you have any questions, you can always contact me using the forms
         at the bottom of the page or go to the contact page to get in touch with
         me.
       </p>
-      <p class="boxes2">
+      <p class="indexboxes2 indexpara screensize">
         Hi, I am currently studying in Ngee Ann Polytechnic. I like to play
         basketball and computer games. I also have a youtube channel which I
         have learn how to do video editing for my videos. I seek for the best in
@@ -218,32 +47,40 @@
     </section>
 
     <aside>
-      <form class="split">
-        <label for="txtfullname" class="box">Full Name:</label>
+      <form class="split screensize2">
+        <label for="txtfullname" class="box screensize2">Full Name:</label>
         <input
+          class="screensize2"
           type="text"
           name="txtfullname"
           placeholder="Please enter your name"
         /><br />
-        <label for="thedate" class="box">Date:</label>
+        <label for="thedate" class="box screensize2">Date:</label>
         <input
+          class="screensize2"
           type="datetime"
           name="thedate"
           placeholder="Please enter the date"
         /><br />
-        <label for="getemail" class="box">Email:</label>
+        <label for="getemail" class="box screensize2">Email:</label>
         <input
+          class="screensize2"
           type="email"
           name="getemail"
           placeholder="Please enter your email"
         /><br />
 
-        <label for="textspace" class="box">Comments:</label>
-        <textarea id="textspace" name="textspace" rows="4" cols="20"></textarea>
+        <label for="textspace" class="box screensize2">Comments:</label>
+        <textarea
+          class="screensize2"
+          id="textspace"
+          name="textspace"
+          rows="4"
+          cols="20"
+        ></textarea>
         <br />
         <input type="submit" name="Submit" />
       </form>
     </aside>
-    <article id="pos"></article>
   </body>
 </html>
