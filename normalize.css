@@ -744,18 +744,18 @@ p {
 
   .responsive {
     margin-left: -40px;
-    margin-top: 110px;
+    margin-top: 70px;
     width: 30%;
   }
   .responsive2 {
     margin-left: -140px;
-    margin-top: 110px;
+    margin-top: 70px;
     height: 137px;
     width: 25%;
   }
   .imgtitle {
     margin-left: 40px;
-    margin-top: 120px;
+    margin-top: 90px;
   }
   .indexboxes {
     margin-top: -240px;
@@ -822,18 +822,18 @@ p {
   }
   .responsive {
     margin-left: -170px;
-    margin-top: 210px;
+    margin-top: 160px;
     width: 80%;
   }
   .responsive2 {
     margin-left: -530px;
-    margin-top: 470px;
+    margin-top: 420px;
     height: 250px;
     width: 80%;
   }
   .imgtitle {
     margin-left: -55px;
-    margin-top: 190px;
+    margin-top: 160px;
   }
   .indexboxes {
     margin-top: -240px;
@@ -893,18 +893,18 @@ p {
   }
   .responsive {
     margin-left: -185px;
-    margin-top: 320px;
+    margin-top: 260px;
     width: 80%;
   }
   .responsive2 {
     margin-left: -545px;
-    margin-top: 520px;
+    margin-top: 460px;
     height: 160px;
     width: 80%;
   }
   .imgtitle {
     margin-left: -105px;
-    margin-top: 310px;
+    margin-top: 260px;
   }
   .indexboxes {
     margin-top: -240px;
@@ -929,18 +929,18 @@ p {
   }
   .responsive {
     margin-left: -188px;
-    margin-top: 310px;
+    margin-top: 260px;
     width: 80%;
   }
   .responsive2 {
     margin-left: -548px;
-    margin-top: 500px;
+    margin-top: 450px;
     height: 200px;
     width: 80%;
   }
   .imgtitle {
     margin-left: -185px;
-    margin-top: 320px;
+    margin-top: 280px;
     width: 80%;
   }
   .indexboxes {
@@ -952,6 +952,9 @@ p {
   }
   .formpos {
     margin-top: 480px;
+  }
+  .formpos2 {
+    margin-top: 0px;
   }
   .main {
     margin-right: 0px;
@@ -965,18 +968,18 @@ p {
   }
   .responsive {
     margin-left: -198px;
-    margin-top: 400px;
+    margin-top: 390px;
     width: 80%;
   }
   .responsive2 {
     margin-left: -558px;
-    margin-top: 570px;
+    margin-top: 560px;
     height: 200px;
     width: 80%;
   }
   .imgtitle {
     margin-left: -195px;
-    margin-top: 410px;
+    margin-top: 400px;
     width: 80%;
   }
   .indexboxes {
@@ -1007,18 +1010,18 @@ p {
 
   .responsive {
     margin-left: -198px;
-    margin-top: 500px;
+    margin-top: 450px;
     width: 80%;
   }
   .responsive2 {
     margin-left: -558px;
-    margin-top: 650px;
+    margin-top: 600px;
     height: 200px;
     width: 80%;
   }
   .imgtitle {
     margin-left: -195px;
-    margin-top: 480px;
+    margin-top: 430px;
     width: 80%;
   }
   .indexboxes {
@@ -1037,7 +1040,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 262px) {
+@media only screen and (max-width: 263px) {
   .screensize {
     width: 72.33%;
     margin-left: 20px;
@@ -1045,18 +1048,18 @@ p {
 
   .responsive {
     margin-left: -198px;
-    margin-top: 600px;
+    margin-top: 550px;
     width: 80%;
   }
   .responsive2 {
     margin-left: -558px;
-    margin-top: 750px;
+    margin-top: 700px;
     height: 180px;
     width: 80%;
   }
   .imgtitle {
     margin-left: -195px;
-    margin-top: 580px;
+    margin-top: 540px;
     width: 80%;
   }
   .indexboxes {
