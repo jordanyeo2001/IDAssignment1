@@ -536,6 +536,27 @@ p {
   background-color: #ff0000;
   margin-top: -80px;
 }
+#aboutmelist2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #ff0000;
+  margin-top: -80px;
+}
+#aboutmelist3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #ff0000;
+  margin-top: -80px;
+}
+#aboutmelist4 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #ff0000;
+  margin-top: -80px;
+}
 
 .aboutmeboxes {
   flex-basis: 45%;
