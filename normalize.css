@@ -673,6 +673,9 @@ p {
     margin-right: 0px;
     margin-top: 0px;
   }
+  .formpos {
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 920px) {
   #nav2 {
@@ -729,7 +732,7 @@ p {
     margin-left: -50px;
   }
   .formpos {
-    margin-top: 200px;
+    margin-top: 250px;
   }
   .main {
     margin-right: 0px;
@@ -748,7 +751,7 @@ p {
     width: 30%;
   }
   .responsive2 {
-    margin-left: -140px;
+    margin-left: -120px;
     margin-top: 70px;
     height: 137px;
     width: 25%;
@@ -768,6 +771,9 @@ p {
     margin-right: 0px;
     margin-top: 0px;
   }
+  .formpos {
+    margin-top: 250px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -778,6 +784,9 @@ p {
   .main {
     margin-right: 0px;
     margin-top: 0px;
+  }
+  .formpos {
+    margin-top: 250px;
   }
 }
 @media only screen and (max-width: 680px) {
@@ -808,7 +817,7 @@ p {
     margin-top: -240px;
   }
   .formpos {
-    margin-top: 620px;
+    margin-top: 680px;
   }
   .main {
     margin-right: 0px;
@@ -843,7 +852,7 @@ p {
     margin-top: -240px;
   }
   .formpos {
-    margin-top: 620px;
+    margin-top: 680px;
   }
   .main {
     margin-right: 0px;
@@ -879,7 +888,7 @@ p {
     margin-top: -240px;
   }
   .formpos {
-    margin-top: 500px;
+    margin-top: 520px;
   }
   .main {
     margin-right: 0px;
@@ -914,7 +923,7 @@ p {
     margin-top: -240px;
   }
   .formpos {
-    margin-top: 500px;
+    margin-top: 520px;
   }
   .main {
     margin-right: 0px;
@@ -951,7 +960,7 @@ p {
     margin-top: -240px;
   }
   .formpos {
-    margin-top: 480px;
+    margin-top: 520px;
   }
   .formpos2 {
     margin-top: 0px;
@@ -990,7 +999,7 @@ p {
     margin-top: -240px;
   }
   .formpos {
-    margin-top: 480px;
+    margin-top: 520px;
   }
   .main {
     margin-right: 0px;
@@ -1032,7 +1041,7 @@ p {
     margin-top: -240px;
   }
   .formpos {
-    margin-top: 480px;
+    margin-top: 520px;
   }
   .main {
     margin-right: 0px;
@@ -1072,7 +1081,7 @@ p {
     margin-left: 25px;
   }
   .formpos {
-    margin-top: 480px;
+    margin-top: 520px;
   }
   .main {
     margin-right: 0px;
