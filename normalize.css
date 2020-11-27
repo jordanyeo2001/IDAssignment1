@@ -357,7 +357,6 @@ body {
   padding: 50px;
   text-align: center;
   margin-top: 0px;
-  margin-right: 40px;
   font-size: 60px;
 
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal,
@@ -640,6 +639,10 @@ p {
     height: 300px;
     margin-top: -240px;
   }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 1026px) {
   .screensize {
@@ -665,6 +668,10 @@ p {
   .indexboxes2 {
     height: 300px;
     margin-top: -240px;
+  }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 920px) {
@@ -724,6 +731,10 @@ p {
   .formpos {
     margin-top: 200px;
   }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 850px) {
   .screensize {
@@ -753,12 +764,20 @@ p {
     height: 100%;
     margin-top: -240px;
   }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .screensize {
     width: 88.33%;
     margin-left: 23px;
+  }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 680px) {
@@ -791,6 +810,10 @@ p {
   .formpos {
     margin-top: 620px;
   }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .screensize {
@@ -821,6 +844,10 @@ p {
   }
   .formpos {
     margin-top: 620px;
+  }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -854,6 +881,10 @@ p {
   .formpos {
     margin-top: 500px;
   }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 415px) {
   .screensize {
@@ -884,6 +915,10 @@ p {
   }
   .formpos {
     margin-top: 500px;
+  }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -918,6 +953,10 @@ p {
   .formpos {
     margin-top: 480px;
   }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 320px) {
   .screensize {
@@ -949,6 +988,10 @@ p {
   }
   .formpos {
     margin-top: 480px;
+  }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -988,6 +1031,10 @@ p {
   .formpos {
     margin-top: 480px;
   }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
 }
 
 @media only screen and (max-width: 262px) {
@@ -1023,5 +1070,9 @@ p {
   }
   .formpos {
     margin-top: 480px;
+  }
+  .main {
+    margin-right: 0px;
+    margin-top: 0px;
   }
 }
