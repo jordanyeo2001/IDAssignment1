@@ -118,35 +118,39 @@
     </section>
 
     <aside>
-      <form class="split" onsubmit="submitmsg()">
-        <label for="txtfullname" class="box">Full Name:</label>
+      <form class="split screensize2 formpos" onsubmit="submitmsg()">
+        <label for="txtfullname" class="box screensize2">Full Name:</label>
         <input
+          class="screensize2"
           type="text"
           name="txtfullname"
+          id="txtfullname"
           placeholder="Please enter your name"
           required
         /><br />
-        <label for="thedate" class="box">Date:</label>
+        <label for="thedate" class="box screensize2">Date:</label>
         <input
-          type="datetime"
+          class="screensize2"
+          type="date"
           name="thedate"
-          placeholder="Please enter the date"
+          id="thedate"
           required
         /><br />
-        <label for="getemail" class="box">Email:</label>
-        <input
-          type="email"
-          name="getemail"
-          placeholder="Please enter your email"
-          required
-        /><br />
+        <label for="getemail" class="box screensize2">Email:</label>
+        <input class="screensize2" type="email" name="getemail" id="getemail
+        placeholder="Please enter your email" required /><br />
 
-        <label for="textspace" class="box">Comments:</label>
-        <textarea id="textspace" name="textspace" rows="4" cols="20"></textarea>
+        <label for="textspace" class="box screensize2">Comments:</label>
+        <textarea
+          class="screensize2"
+          id="textspace"
+          name="textspace"
+          rows="4"
+          cols="20"
+        ></textarea>
         <br />
         <input type="submit" name="Submit" />
       </form>
     </aside>
-    <article id="pos"></article>
   </body>
 </html>

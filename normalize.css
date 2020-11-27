@@ -552,6 +552,7 @@ p {
   left: 220px;
   top: 475px;
   border: 4px solid #3700ff;
+  margin-top: -15px;
 }
 .responsive2 {
   width: 15%;
@@ -560,6 +561,7 @@ p {
   left: 580px;
   top: 475px;
   border: 4px solid #3700ff;
+  margin-top: -15px;
 }
 
 .imgtitle {
@@ -578,6 +580,7 @@ p {
   border: 2px solid #000000;
   background-color: #ffffff;
   text-align: center;
+  margin-top: -0.5px;
 }
 
 .imgpos {
