@@ -421,7 +421,7 @@ ul {
 
 .menubutton {
   background-color: #ff6600;
-  color: white;
+  color: #ffffff;
   padding: 20px;
   font-size: 20px;
 }
@@ -441,7 +441,6 @@ ul {
 .dropdown-menu a {
   color: #3333ff;
   padding: 10px 14px;
-  text-decoration: none;
   display: block;
 }
 
@@ -453,9 +452,6 @@ ul {
   display: block;
 }
 
-.dropdown:hover .menubutton {
-  background-color: #3e8e41;
-}
 #nav2 {
   display: block;
 }

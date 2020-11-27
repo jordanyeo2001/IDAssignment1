@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jordan's About Me</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <script>
+      function submitmsg() {
+        alert("Thank you for contacting me.");
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -73,7 +78,7 @@
             target="_blank"
           >
             <img
-              src="Featured-Project.jpg"
+              src="img/Featured-Project.jpg"
               alt="CSF Website"
               width="335"
               class="imgpos"
@@ -82,7 +87,7 @@
         </li>
         <li>
           <img
-            src="Featured-Project2.jpg"
+            src="img/Featured-Project2.jpg"
             alt="Game Programmed"
             width="335"
             height="211"
@@ -91,7 +96,7 @@
         </li>
         <li>
           <img
-            src="Featured-Project3.png"
+            src="img/Featured-Project3.png"
             alt="Game Programmed"
             width="190"
             height="211"
@@ -100,7 +105,7 @@
         </li>
         <li>
           <img
-            src="Featured-Project4.png"
+            src="img/Featured-Project4.png"
             alt="Game Programmed"
             width="211"
             height="211"
@@ -113,24 +118,27 @@
     </section>
 
     <aside>
-      <form class="split">
+      <form class="split" onsubmit="submitmsg()">
         <label for="txtfullname" class="box">Full Name:</label>
         <input
           type="text"
           name="txtfullname"
           placeholder="Please enter your name"
+          required
         /><br />
         <label for="thedate" class="box">Date:</label>
         <input
           type="datetime"
           name="thedate"
           placeholder="Please enter the date"
+          required
         /><br />
         <label for="getemail" class="box">Email:</label>
         <input
           type="email"
           name="getemail"
           placeholder="Please enter your email"
+          required
         /><br />
 
         <label for="textspace" class="box">Comments:</label>

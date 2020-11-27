@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jordan's Contact</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <script>
+      function submitmsg() {
+        alert("Thank you for contacting me.");
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -50,28 +55,35 @@
             <li class="contactboxes">Instagram</li>
           </a>
         </a>
+        <a href="https://jordanyeo20011.wixsite.com/myblog/portfolio" target="_blank">
+          <li class="contactboxes">Personal Website</li>
+        </a>
+      </a>
       </ul>
     </section>
 
     <aside>
-      <form class="split">
+      <form class="split" onsubmit="submitmsg()">
         <label for="txtfullname" class="box">Full Name:</label>
         <input
           type="text"
           name="txtfullname"
           placeholder="Please enter your name"
+          required
         /><br />
         <label for="thedate" class="box">Date:</label>
         <input
           type="datetime"
           name="thedate"
           placeholder="Please enter the date"
+          required
         /><br />
         <label for="getemail" class="box">Email:</label>
         <input
           type="email"
           name="getemail"
           placeholder="Please enter your email"
+          required
         /><br />
 
         <label for="textspace" class="box">Comments:</label>

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jordan's Home</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <script>
+      function submitmsg() {
+        alert("Thank you for contacting me.");
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -47,13 +52,14 @@
     </section>
 
     <aside>
-      <form class="split screensize2 formpos">
+      <form class="split screensize2 formpos" onsubmit="submitmsg()">
         <label for="txtfullname" class="box screensize2">Full Name:</label>
         <input
           class="screensize2"
           type="text"
           name="txtfullname"
           placeholder="Please enter your name"
+          required
         /><br />
         <label for="thedate" class="box screensize2">Date:</label>
         <input
@@ -61,6 +67,7 @@
           type="datetime"
           name="thedate"
           placeholder="Please enter the date"
+          required
         /><br />
         <label for="getemail" class="box screensize2">Email:</label>
         <input
@@ -68,6 +75,7 @@
           type="email"
           name="getemail"
           placeholder="Please enter your email"
+          required
         /><br />
 
         <label for="textspace" class="box screensize2">Comments:</label>
@@ -89,7 +97,7 @@
         target="_blank"
       >
         <img
-          src="Featured-Project.jpg"
+          src="img/Featured-Project.jpg"
           alt="CSF Website"
           width="400"
           height="200"
@@ -97,7 +105,7 @@
         />
       </a>
       <img
-        src="Featured-Project2.jpg"
+        src="img/Featured-Project2.jpg"
         alt="Game Programmed"
         width="400"
         height="100"
