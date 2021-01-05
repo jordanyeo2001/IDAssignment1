@@ -27,8 +27,9 @@ GitHub Page - https://jordanyeo2001.github.io/IDAssignment1/
 <h2>Existing Features</h2>
 <h3>Feature 1 - Universal Navigation</h3>
 This allows users to move between different pages such as the home page, contact page and aboutme page.
-Furthermore, the Universal Navigation is differnt for desktop and mobile devices. For desktop version,
-it will be split into 3 columns while for mobile version, it will show only one column which is a 
+Furthermore, the Universal Navigation is differnt for desktop and mobile devices. 
+<br>
+For desktop version, it will be split into 3 columns while for mobile version, it will show only one column which is a 
 dropdown menu.
 
 <h3>Feature 2 - Responsive Website</h3>
@@ -48,7 +49,7 @@ website can always contact me or give feedbacks about the website.
 
 <h2>Features Left to Implement</h2>
 A form that send information to email.
-
+<br>
 An image that is able to enlarge by clicking on it.
 
 
@@ -63,9 +64,12 @@ https://www.w3schools.com/css/
 <h2>Testing</h2>
 <h3>Contact form</h3>
 Scroll to the bottom of the page and you will find a form.
+<br>
 When submitting an empty form and an error message will show the required fields that is needed.
+<br>
 When submitting the form with an invalid email address and a relevant error message appears to tell you that the email format
 is incorrect.
+<br>
 When submitting the form with all inputs valid and a message appears which tells you that you have successfully submitted
 the form.
 
@@ -75,6 +79,7 @@ With different browser or devices used, the content of the page will adjust acco
 
 <h3>Some Hyperlink text and images</h3>
 When clicking on one of the images under projects, it will redirect user to another page to find out more about it.
+<br>
 When clicking on one of the text under contact page, it will redirect the user to another page such as my linkedin profile.
 
 <h3>Navigation Menu</h3>
@@ -82,8 +87,11 @@ When click on one of the button, it will redirect you to another page such as ho
 Furthermore, for mobile version, it wil show a dropdown menu instead.
 
 Form was able to submit even without filling in any details. (Solved)
+<br>
 Form was not able to send to my email.
+<br>
 The contents of the website only works on desktop screensize and not mobile devices.(Solved)
+<br>
 Difficulties in positoning the contents properly.(Solved)
 
 
