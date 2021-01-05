@@ -5,7 +5,8 @@ For this project, i have chosen to do a personal portfolio for myself. This webs
 such as achievements, skills i have learnt, short description about me and etc. Furthermore, this website can also help
 me in getting a job as there are a variety of information about me which includes my linkedin profile. From the website,
 employers are able to find out what are my skills, achivement and etc.
-
+<br>
+GitHub Page - https://jordanyeo2001.github.io/IDAssignment1/
 
 <h1>Design Process</h1>
 This website is cater for people who want to know more about me, employers or people like me who want to build my portfolio.
@@ -20,8 +21,7 @@ know what are my past achivements and work experienced.
 All in all, this website I have created is design to make it easier for people to find information easily.
 
 Wireframe Created - https://xd.adobe.com/view/68eb3ae2-653f-4326-83a9-ed71e3726ee2-3db8/ 
-<br>
-GitHub Page - https://jordanyeo2001.github.io/IDAssignment1/
+
 
 <h1>Features</h1>
 <h2>Existing Features</h2>
