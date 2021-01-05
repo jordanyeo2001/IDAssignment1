@@ -1,6 +1,6 @@
 # IDAssignment1
 
-Personal Portfolio
+<h1>Personal Portfolio</h1>
 For this project, i have chosen to do a personal portfolio for myself. This website will include many things about myself
 such as achievements, skills i have learnt, short description about me and etc. Furthermore, this website can also help
 me in getting a job as there are a variety of information about me which includes my linkedin profile. From the website,
@@ -20,7 +20,7 @@ know what are my past achivements and work experienced.
 All in all, this website I have created is design to make it easier for people to find information easily.
 
 Wireframe Created - https://xd.adobe.com/view/68eb3ae2-653f-4326-83a9-ed71e3726ee2-3db8/
-
+GitHub Page - https://jordanyeo2001.github.io/IDAssignment1/
 
 Features
 Existing Features
